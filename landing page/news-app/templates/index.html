@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="../static/pulse-icon.ico">
+
+    <title>Pulse-News </title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body style="background-color:#bacbe6;">
+
+<div class="jumbotron" style="background-color:#4d6a99;">
+
+    <h1 style="color:#f9f7fa">
+
+         <img src="../static/2.png" alt="" width="200px" height="100px">
+   NEWS
+
+    </h1>
+
+</div>
+
+
+<div class="container">
+
+    {% for new, des, i, ln in context %}
+
+    <img src="{{i}}" alt="">
+    <h3>News: </h3> {{new}}
+    <h4>Description: </h4> {{des}}
+    <h4>Link: <a href="{{ln}}">click here</a></h4>
+
+    {% endfor %}
+
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+Date : 2022-02-26 23:09:14
+Directory : c:\Users\joeljo\Desktop\TY-project\landing page\news-app
+Total : 7 files,  139 codes, 0 comments, 39 blanks, all 178 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| CSS      |          1 |         63 |          0 |         11 |         74 |
+| XML      |          4 |         29 |          0 |          0 |         29 |
+| HTML     |          1 |         24 |          0 |         16 |         40 |
+| Python   |          1 |         23 |          0 |         12 |         35 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                    | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                       |          7 |        139 |          0 |         39 |        178 |
+| .idea                                                                                                   |          4 |         29 |          0 |          0 |         29 |
+| .idea\inspectionProfiles                                                                                |          1 |          6 |          0 |          0 |          6 |
+| static                                                                                                  |          1 |         63 |          0 |         11 |         74 |
+| templates                                                                                               |          1 |         24 |          0 |         16 |         40 |
++---------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                                                                | language | code       | comment    | blank      | total      |
++---------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\joeljo\Desktop\TY-project\landing page\news-app\.idea\inspectionProfiles\profiles_settings.xml | XML      |          6 |          0 |          0 |          6 |
+| c:\Users\joeljo\Desktop\TY-project\landing page\news-app\.idea\misc.xml                                 | XML      |          7 |          0 |          0 |          7 |
+| c:\Users\joeljo\Desktop\TY-project\landing page\news-app\.idea\modules.xml                              | XML      |          8 |          0 |          0 |          8 |
+| c:\Users\joeljo\Desktop\TY-project\landing page\news-app\.idea\news-app.iml                             | XML      |          8 |          0 |          0 |          8 |
+| c:\Users\joeljo\Desktop\TY-project\landing page\news-app\app.py                                         | Python   |         23 |          0 |         12 |         35 |
+| c:\Users\joeljo\Desktop\TY-project\landing page\news-app\static\style.css                               | CSS      |         63 |          0 |         11 |         74 |
+| c:\Users\joeljo\Desktop\TY-project\landing page\news-app\templates\index.html                           | HTML     |         24 |          0 |         16 |         40 |
+| Total                                                                                                   |          |        139 |          0 |         39 |        178 |
++---------------------------------------------------------------------------------------------------------+----------+------------+------------+------------+------------+
