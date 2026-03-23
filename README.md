@@ -1,69 +1,84 @@
+<div align="center">
 
-# Project Title
+<img src="https://capsule-render.vercel.app/api?type=waving&color=4f46e5&height=180&section=header&text=Pulse%20Infographics&fontSize=56&fontColor=ffffff&fontAlignY=38&animation=fadeIn" width="100%"/>
 
-## Description
-This project involves various functionalities, including cryptocurrency analysis, stock market graphs, DNA sequence analysis, weather updates, news display, and expense tracking.
+<br/>
 
-## Key Features
-- Cryptocurrency analysis using CoinRanking API
-- Stock market graphs for different companies
-- DNA sequence analysis with real-time updates
-- Weather updates for multiple cities
-- Latest news display
-- Expense tracking with chart visualization
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=DM+Mono&size=18&duration=3000&pause=1000&color=4F46E5&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Multi-framework+data+unification;Single+visual+interface;Final+year+IT+project)](https://github.com/Joeljozzz/Pulse_Infographics)
 
-## Setup Instructions
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd your-repo
-   ```
-3. Install the required dependencies:
-   ```bash
-   npm install
-   ```
+<br/>
 
-## Usage
-1. Start the application:
-   ```bash
-   npm start
-   ```
-2. Open your browser and navigate to `http://localhost:3000`.
+[![Repository](https://img.shields.io/badge/GitHub-Repo-0B0D0E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Joeljozzz/Pulse_Infographics)
+[![Built by Joel](https://img.shields.io/badge/Built%20by-Joel%20Jose-4f46e5?style=for-the-badge)](https://github.com/Joeljozzz)
 
-## Testing
-The project includes various test cases for functional and user acceptance testing.
+<br/>
 
-### Test Case 1: Landing Site Functionality
-- **Description**: Verifying the functionality of the landing site and links.
-- **Steps**:
-  1. Enter the landing site and use the different links to observe the web apps.
-  2. Click on the "About" option.
-  3. Click on the "Review" option.
-  4. Click on the "Review us" link.
-- **Expected Result**: Redirects to respective pages and displays content correctly.
+</div>
 
-### Test Case 2: Cryptograph, Stocks, DNA Analyzer
-- **Description**: Verifying the functionality of cryptocurrency, stock graphs, and DNA analyzer.
-- **Steps**:
-  1. Select different cryptocurrencies from the drop-down.
-  2. Select different time stamps.
-  3. Select different companies for stock graphs.
-  4. Enter a different DNA sequence and click shift enter.
-- **Expected Result**: Updates the graphs and content according to the selections.
+---
 
-### Test Case 3: Weather App, News App, Expense Tracker
-- **Description**: Verifying the functionality of weather app, news app, and expense tracker.
-- **Steps**:
-  1. Add a new city name for weather details.
-  2. Load the latest news.
-  3. Add income/expense manually.
-- **Expected Result**: Updates the respective data and charts correctly.
+## System Objective
 
-## Contributions
-Feel free to open issues or submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
+Data often lives in isolated silos. Pulse Infographics acts as a unified visual platform that brings various fields of information into a single user-readable format. It is a multi-framework web project designed to pull live data from remote servers and consolidate it into graphical representations. Developed as a final year Information Technology project, it uses a fragmented, multi-server layout where individual components operate independently.
 
-## License
-This project is licensed under the MIT License.
+---
+
+## Architecture Flow
+
+```text
+┌─────────────────────────────────────────────────────────┐
+│  LAYER 1 — Ingestion         [Remote API Servers]       │
+│  Extracting live metrics via REST APIs & Web Requests   │
+├─────────────────────────────────────────────────────────┤
+│  LAYER 2 — Processing        [Independent Sub-Servers]  │
+│  Data standardization using Flask, PHP, and Node.js     │
+├─────────────────────────────────────────────────────────┤
+│  LAYER 3 — Presentation      [Visual Interface]         │
+│  Multi-framework dashboard rendering the final output   │
+└─────────────────────────────────────────────────────────┘
+```
+
+---
+
+## Technical Stack
+
+```text
+┌─────────────────────────────────────────────────────────┐
+│  Frontend       HTML · CSS · JavaScript · ReactJS       │
+│  UI Frameworks  Bootstrap · Python Streamlit            │
+│  Backend        PHP · Python Flask                      │
+│  Databases      SQLite                                  │
+└─────────────────────────────────────────────────────────┘
+```
+
+**Stack Details:** The frontend utilizes HTML, CSS, JavaScript, and ReactJS. Python Streamlit is utilized specifically for the stocks and bioinformatics applications. The backend is powered by PHP for the landing site and crypto-graph, while Python Flask handles the majority of the other web applications. SQLite is used for local database management.
+
+---
+
+## Sub-System Modules
+
+The platform is an accumulation of small data science web deployable projects, featuring a main landing site and a review system. The independent modules include:
+
+| Module | Description |
+|---|---|
+| **Pulse-Cryptograph** | Displays real-time crypto values against USD and showcases value graphs with selectable timeframes. |
+| **Pulse-Stock-graph** | Visualizes opening and closing prices of various stocks based on user selection. |
+| **Pulse-DNA-analyser** | Calculates and displays nucleotide composition counts from a user-inputted DNA sequence. |
+| **Pulse-Weather** | Fetches and displays weather information and symbology for specific cities inputted by the user. |
+| **Pulse-News** | Dynamically loads and presents the latest news headlines from remote sources. |
+| **Pulse-Advisor** | A travel advisor tool that explores and maps places of interest based on the user's geolocation. |
+| **Pulse-Expense-Tracker** | Tracks expenses and income, processes manual or voice-recognized inputs, and generates doughnut charts. |
+
+---
+
+<div align="center">
+
+<br/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=DM+Mono&size=13&duration=4000&pause=1000&color=6B7280&center=true&vCenter=true&repeat=true&width=500&lines=Designed+and+built+with+care+by+Joel+Jose;Data+Science+%7C+ML+%7C+Cloud;github.com%2FJoeljozzz)](https://github.com/Joeljozzz)
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=4f46e5&height=100&section=footer&animation=fadeIn" width="100%"/>
+
+</div>
