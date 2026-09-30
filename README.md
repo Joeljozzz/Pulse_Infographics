@@ -1,73 +1,177 @@
+# 📊 Pulse Infographics
+
 <div align="center">
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=4f46e5&height=180&section=header&text=Pulse%20Infographics&fontSize=56&fontColor=ffffff&fontAlignY=38&animation=fadeIn" width="100%"/>
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=DM+Mono&size=18&duration=3000&pause=1000&color=4F46E5&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Multi-framework+data+unification;Single+visual+interface;Final+year+IT+project)](https://github.com/Joeljozzz/Pulse_Infographics)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=DM+Mono&size=18&duration=3000&pause=1000&color=4F46E5&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=80&lines=Multi-framework+data+unification;Single+visual+interface;Distributed+micro-module+architecture)](https://github.com/Joeljozzz/Pulse_Infographics)
 
 <br/>
 
-[![Repository](https://img.shields.io/badge/GitHub-Repo-0B0D0E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Joeljozzz/Pulse_Infographics)
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Repo-0B0D0E?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Joeljozzz/Pulse_Infographics)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 [![Built by Joel](https://img.shields.io/badge/Built%20by-Joel%20Jose-4f46e5?style=for-the-badge)](https://github.com/Joeljozzz)
 
 <br/>
+
+### 🛠️ Tech Stack Badges
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)](https://www.php.net/)
+[![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)](https://www.sqlite.org/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com/)
 
 </div>
 
 ---
 
-## System Objective
+## 📌 Project Overview
 
-Data often lives in isolated silos. Pulse Infographics acts as a unified visual platform that brings various fields of information into a single user-readable format. It is a multi-framework web project designed to pull live data from remote servers and consolidate it into graphical representations. Developed as a final year Information Technology project, it uses a fragmented, multi-server layout where individual components operate independently.
+**Pulse Infographics** is a multi-framework data visualization platform that unifies live data streams from finance, bioinformatics, weather, news, and personal analytics into a single visual dashboard. Built with a distributed multi-server architecture, each micro-module independently ingests, processes, and displays real-time metrics across varied domains. Developed as a comprehensive final year Information Technology project, it breaks down data silos through modular visualization services.
 
 ---
 
-## Architecture Flow
+## ✨ Features
+
+- 🪙 **Pulse-Cryptograph**: Real-time cryptocurrency valuation against USD with interactive time-series historical charts.
+- 📈 **Pulse-Stock-graph**: Dynamic stock market tracker visualizing opening, closing, and volume movements.
+- 🧬 **Pulse-DNA-analyser**: Bioinformatics utility computing nucleotide composition counts and sequence frequency metrics.
+- 🌦️ **Pulse-Weather**: City-level weather query engine displaying meteorological metrics and dynamic status symbology.
+- 📰 **Pulse-News**: Automated news feed aggregator fetching real-time headlines from external media sources.
+- 🧭 **Pulse-Advisor**: Geolocation-aware travel guide recommending nearby points of interest and landmarks.
+- 💳 **Pulse-Expense-Tracker**: Personal finance manager featuring speech-to-text input, transaction categorization, and dynamic doughnut chart breakdowns.
+- 🧩 **Multi-Framework Architecture**: Modular composition orchestrating Streamlit, Flask, React, and PHP sub-servers behind a coordinated interface.
+
+---
+
+## 🏛️ System Architecture
 
 ```text
-┌─────────────────────────────────────────────────────────┐
-│  LAYER 1 — Ingestion         [Remote API Servers]       │
-│  Extracting live metrics via REST APIs & Web Requests   │
-├─────────────────────────────────────────────────────────┤
-│  LAYER 2 — Processing        [Independent Sub-Servers]  │
-│  Data standardization using Flask, PHP, and Node.js     │
-├─────────────────────────────────────────────────────────┤
-│  LAYER 3 — Presentation      [Visual Interface]         │
-│  Multi-framework dashboard rendering the final output   │
-└─────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────────────┐
+│  LAYER 1 — Ingestion        [Remote API Servers & Data Feeds]          │
+│  Live metrics extraction via REST APIs, Geo-services & Web Requests    │
+├────────────────────────────────────────────────────────────────────────┤
+│  LAYER 2 — Processing       [Independent Sub-Servers]                 │
+│  Data standardization and analysis using Flask, PHP, and Streamlit     │
+├────────────────────────────────────────────────────────────────────────┤
+│  LAYER 3 — Presentation     [Unified Visual Interface]                 │
+│  Multi-framework dashboard rendering responsive graphical outputs      │
+└────────────────────────────────────────────────────────────────────────┘
+```
+
+### Module Breakdown
+
+| Module | Core Framework | Data Domain | Primary Function |
+|---|---|---|---|
+| **Pulse-Cryptograph** | PHP / Chart.js | Fintech / Crypto | Live exchange rates vs. USD with adjustable interval graphing |
+| **Pulse-Stock-graph** | Python Streamlit | Financial Markets | Stock candlestick / line charts and historical trend views |
+| **Pulse-DNA-analyser** | Python Streamlit | Bioinformatics | Nucleotide frequency calculation and sequence statistics |
+| **Pulse-Weather** | Python Flask / REST APIs | Meteorology | Real-time weather parameters and condition indicators |
+| **Pulse-News** | Python Flask | Media & Journalism | Curated topical headline streams from remote news APIs |
+| **Pulse-Advisor** | React / Geolocation API | Travel & Tourism | Location-based interactive mapping of local attractions |
+| **Pulse-Expense-Tracker** | React / Speech API / Charts | Personal Finance | Income/expense ledger with speech recognition & chart analytics |
+
+---
+
+## 📂 Project Structure
+
+```text
+Pulse_Infographics/
+├── .git/                  # Git version control metadata
+├── LICENSE                # MIT License
+└── README.md              # Project documentation and architectural overview
+```
+
+### Distributed Architecture Ecosystem
+
+```text
+Pulse-Infographics-Ecosystem/
+├── landing-site/          # Central portal & review system (PHP / Bootstrap)
+├── pulse-cryptograph/     # Cryptocurrency visualization module (PHP / REST APIs)
+├── pulse-stock-graph/     # Equity trends & stock chart visualizer (Streamlit / Python)
+├── pulse-dna-analyser/    # Bioinformatics nucleotide analyzer (Streamlit)
+├── pulse-weather/         # City-based weather service (Flask / OpenWeatherMap)
+├── pulse-news/            # Live headline news aggregation service (Flask)
+├── pulse-advisor/         # Geolocation travel recommendations (React)
+└── pulse-expense-tracker/ # Voice-enabled income & expense tracker (React)
 ```
 
 ---
 
-## Technical Stack
+## 🚀 Getting Started
 
-```text
-┌─────────────────────────────────────────────────────────┐
-│  Frontend       HTML · CSS · JavaScript · ReactJS       │
-│  UI Frameworks  Bootstrap · Python Streamlit            │
-│  Backend        PHP · Python Flask                      │
-│  Databases      SQLite                                  │
-└─────────────────────────────────────────────────────────┘
-```
+### Prerequisites
 
-**Stack Details:** The frontend utilizes HTML, CSS, JavaScript, and ReactJS. Python Streamlit is utilized specifically for the stocks and bioinformatics applications. The backend is powered by PHP for the landing site and crypto-graph, while Python Flask handles the majority of the other web applications. SQLite is used for local database management.
+To run modules across the Pulse Infographics ecosystem, ensure you have the following installed:
+
+- **Python**: `3.8+`
+- **Node.js**: `16.x+` & `npm`
+- **PHP**: `8.0+`
+- **Web Server**: Apache / Nginx (or PHP built-in server)
+- **SQLite3**
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Joeljozzz/Pulse_Infographics.git
+   cd Pulse_Infographics
+   ```
+
+2. **Python Sub-Servers (Flask & Streamlit):**
+   ```bash
+   # Create and activate a virtual environment
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+   # Install common dependencies
+   pip install flask streamlit pandas requests matplotlib
+   ```
+
+3. **React Sub-Servers:**
+   ```bash
+   npm install
+   ```
 
 ---
 
-## Sub-System Modules
+## 💻 Usage
 
-The platform is an accumulation of small data science web deployable projects, featuring a main landing site and a review system. The independent modules include:
+Each sub-system operates as an independent micro-service that can be executed based on the required module:
 
-| Module | Description |
-|---|---|
-| **Pulse-Cryptograph** | Displays real-time crypto values against USD and showcases value graphs with selectable timeframes. |
-| **Pulse-Stock-graph** | Visualizes opening and closing prices of various stocks based on user selection. |
-| **Pulse-DNA-analyser** | Calculates and displays nucleotide composition counts from a user-inputted DNA sequence. |
-| **Pulse-Weather** | Fetches and displays weather information and symbology for specific cities inputted by the user. |
-| **Pulse-News** | Dynamically loads and presents the latest news headlines from remote sources. |
-| **Pulse-Advisor** | A travel advisor tool that explores and maps places of interest based on the user's geolocation. |
-| **Pulse-Expense-Tracker** | Tracks expenses and income, processes manual or voice-recognized inputs, and generates doughnut charts. |
+- **Run Streamlit Applications (Stock Graph & DNA Analyser):**
+  ```bash
+  streamlit run app.py
+  ```
+
+- **Run Flask Applications (Weather & News APIs):**
+  ```bash
+  python app.py
+  ```
+
+- **Run React Applications (Expense Tracker & Advisor):**
+  ```bash
+  npm start
+  ```
+
+- **Run PHP Landing Site & Cryptograph:**
+  ```bash
+  php -S localhost:8000
+  ```
+
+Access the unified portal or individual service endpoints via your web browser at their assigned localhost ports.
+
+---
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 
